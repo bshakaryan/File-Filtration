@@ -30,7 +30,11 @@
 - Для входящих/выходящих файлов используются только файлы с расширением `.txt`
 - Порядок аргументов не имеет значения 
 
-### Пример
+### Примеры команд
+
+- -o C:\output -p test1- -a -f C:\examples\in1.txt C:\examples\in2.txt
+- -o project_output/ -p 1_lab_ in1.txt in2.txt in3.txt in4.txt
+- in1.txt
 
 ### Требования
 
