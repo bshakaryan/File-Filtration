@@ -27,22 +27,3 @@ public class Main {
         }
     }
 }
-/*
-[-o /some/path] [-p result_] [-a] [-s/-f] file1.txt file2.txt
-
--p test6- -a -f C:\Users\асер\Desktop\koronatech_test\in1.txt C:\Users\асер\Desktop\koronatech_test\in2.txt C:\Users\асер\Desktop\koronatech_test\in3.txt
-
-java -jar util.jar -a -f C:\Users\асер\Desktop\koronatech_test\in1.txt C:\Users\асер\Desktop\koronatech_test\in2.txt C:\Users\асер\Desktop\koronatech_test\in3.txt
-
-java -jar util.jar -s -a -p sample- in1.txt in2.txt
-
--o output/ -s -a -p sample- C:\Users\асер\Desktop\koronatech_test\in1.txt C:\Users\асер\Desktop\koronatech_test\in2.txt C:\Users\асер\Desktop\koronatech_test\in3.txt
-
- По умолчанию будет складывать в проект, относительные пути относительно папки проекта, должны существовать
- Работает на абсолютные пути
-
- java -jar util.jar
-
- Java 12+
-
- */
